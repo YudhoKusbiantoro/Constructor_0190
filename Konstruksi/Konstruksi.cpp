@@ -20,3 +20,6 @@ public:
 
 	}
 };
+
+int Mahasiswa::nim = 190;
+

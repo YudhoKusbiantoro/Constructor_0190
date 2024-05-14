@@ -13,3 +13,8 @@ public:
 	mahasiswa() {
 		nim = 0;
 		nama = "";
+
+	}
+	mahasiswa(int inim) {
+		nim = inim;
+	}

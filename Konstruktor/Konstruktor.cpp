@@ -31,3 +31,8 @@ mahasiswa::mahasiswa(string iNama) {
 	nim = 0;
 	nama = iNama;
 }
+
+mahasiswa::mahasiswa(int inim, string iNama) {
+	nim = inim;
+	nama = iNama;
+}

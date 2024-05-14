@@ -18,3 +18,16 @@ public:
 	mahasiswa(int inim) {
 		nim = inim;
 	}
+
+	mahasiswa(string);
+	mahasiswa(int iNim, string iNama);
+	void cetak();
+
+
+
+};
+
+mahasiswa::mahasiswa(string iNama) {
+	nim = 0;
+	nama = iNama;
+}

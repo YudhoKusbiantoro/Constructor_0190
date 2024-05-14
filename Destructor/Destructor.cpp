@@ -28,19 +28,3 @@ angka::~angka() {
 	delete[]arr;
 	cout << "Alamat Array sudah di lepaskan" << endl;
 }
-
-void angka::isiData() {
-	for (int i = 1; i <= panjang; i++) {
-		cout << i << " = "; cin >> arr[i];
-	}
-	cout << endl;
-}; 
-
-int main() {
-	angka belajarcpp(3); //Constructordi panggil
-	angka* ptrBelajarcpp = new angka(5); //Constructor di panggil
-	delete ptrBelajarcpp; //Destructor di panggil
-
-	return 0;
-	//Destructor di panggil
-}
